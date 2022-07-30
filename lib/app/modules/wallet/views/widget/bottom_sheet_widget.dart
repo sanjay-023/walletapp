@@ -22,8 +22,8 @@ class TransactionSheet extends StatelessWidget {
                 boxShadow: [
                   BoxShadow(
                       color: Color.fromARGB(10, 0, 0, 0),
-                      blurRadius: 3,
-                      spreadRadius: 5)
+                      blurRadius: 3.r,
+                      spreadRadius: 5.r)
                 ]),
             child: Padding(
               padding: const EdgeInsets.only(top: 30),
@@ -83,14 +83,14 @@ class TransactionSheet extends StatelessWidget {
                                 "Today",
                                 style: GoogleFonts.mulish(
                                     textStyle: TextStyle(
-                                        fontSize: 16,
+                                        fontSize: 16.sp,
                                         fontWeight: FontWeight.w700,
                                         color: Colors.grey)),
                               ),
                               Text("-260.99 s\$",
                                   style: GoogleFonts.mulish(
                                       textStyle: TextStyle(
-                                          fontSize: 16,
+                                          fontSize: 16.sp,
                                           fontWeight: FontWeight.w700,
                                           color: Colors.grey)))
                             ],
@@ -113,14 +113,14 @@ class TransactionSheet extends StatelessWidget {
                                   "Grab Taxi",
                                   style: GoogleFonts.mulish(
                                       textStyle: TextStyle(
-                                          fontSize: 16,
+                                          fontSize: 16.sp,
                                           fontWeight: FontWeight.w600)),
                                 ),
                                 Text(
                                   "10.90 s\$",
                                   style: GoogleFonts.mulish(
                                       textStyle: TextStyle(
-                                          fontSize: 16,
+                                          fontSize: 16.sp,
                                           fontWeight: FontWeight.w600)),
                                 )
                               ],
@@ -141,12 +141,12 @@ class TransactionSheet extends StatelessWidget {
                               Text("Singapore Airlines",
                                   style: GoogleFonts.mulish(
                                       textStyle: TextStyle(
-                                          fontSize: 16,
+                                          fontSize: 16.sp,
                                           fontWeight: FontWeight.w600))),
                               Text("250.09 s\$",
                                   style: GoogleFonts.mulish(
                                       textStyle: TextStyle(
-                                          fontSize: 16,
+                                          fontSize: 16.sp,
                                           fontWeight: FontWeight.w600)))
                             ],
                           ),
